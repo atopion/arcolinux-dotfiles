@@ -1,0 +1,53 @@
+#!/bin/fish
+#
+#   fish shell configuration
+#   Author: atopion
+#
+
+set -x NODE_PATH /usr/lib/node_modules
+
+function ls
+    command ls --color=auto $argv
+end
+
+function la
+    ls -ha --color=auto $argv
+end
+
+function ll
+    ls -lha --color=auto $argv
+end
+
+function l
+    ls $argv
+end
+
+function l.
+    ls -A --color=auto $argv | egrep '^\.'
+end
+
+
+function grep
+    command grep --color=auto $argv
+end
+
+function egrep
+    command egrep --color=auto $argv
+end
+
+function fgrep
+    command fgrep --color=auto $argv
+end
+
+
+function df
+    command df -h $argv
+end
+
+
+#function pacman
+#    command sudo pacman $argv
+#end
+
+
+neofetch
