@@ -13,6 +13,10 @@ local dpi   = require("beautiful.xresources").apply_dpi
 local os = os
 local my_table = awful.util.table or gears.table -- 4.{0,1} compatibility
 
+-- Awesome widgets
+local logout_menu_widget = require("awesome-wm-widgets.logout-menu-widget.logout-menu")
+
+
 local theme                                     = {}
 theme.dir                                       = os.getenv("HOME") .. "/.config/awesome/themes/sandcastle"
 theme.wallpaper                                 = theme.dir .. "/wallpaper-1.jpg"
@@ -151,12 +155,12 @@ function theme.at_screen_connect(s)
     gears.wallpaper.maximized(wallpaper, s, true)
 
     local layouts = {
-        awful.layout.suit.tile.left,
-        awful.layout.suit.tile.left,
-        awful.layout.suit.tile.left,
-        awful.layout.suit.tile.left,
-        awful.layout.suit.tile.left,
-        awful.layout.suit.tile.left
+        awful.layout.suit.tile,
+        awful.layout.suit.tile,
+        awful.layout.suit.tile,
+        awful.layout.suit.tile,
+        awful.layout.suit.tile,
+        awful.layout.suit.tile
     }
 
     -- Tags
@@ -212,6 +216,7 @@ function theme.at_screen_connect(s)
             wibox.widget.systray(),
             separator,
             mytextclock,
+            logout_menu_widget(),
         },
     }
 end

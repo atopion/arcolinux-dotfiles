@@ -35,7 +35,6 @@ local my_table      = awful.util.table or gears.table -- 4.{0,1} compatibility
 local dpi           = require("beautiful.xresources").apply_dpi
 -- }}}
 
-
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
 -- another config (This code will only ever execute for the fallback config)
@@ -78,10 +77,11 @@ local ctrl         = "Control"
 -- personal variables
 local browser1          = "firefox"
 local browser2          = "chromium -no-default-browser-check"
+local browser_private   = "firefox -private-window" 
 local editor            = os.getenv("EDITOR") or "vim"
 local editorgui         = "code"
-local filemanager       = "thunar"
-local mailclient        = "evolution"
+local filemanager       = "pcmanfm"
+local mailclient        = "thunderbird"
 local terminal          = "kitty"
 
 
@@ -214,7 +214,7 @@ end)
 screen.connect_signal("arrange", function (s)
     local only_one = #s.tiled_clients == 1
     for _, c in pairs(s.clients) do
-        if only_one and not c.floating or c.maximized then
+        if only_one and not c.floating or c.maximized or c.fullscreen then
             c.border_width = 2
         else
             c.border_width = beautiful.border_width
@@ -379,28 +379,6 @@ globalkeys = my_table.join (
     awful.key({ modkey, "Control" }, "k", function () awful.screen.focus_relative(-1) end,     {description = "focus the previous screen", group = "screen"}),
     awful.key({ modkey,           }, "u", awful.client.urgent.jumpto), 
 
-
-    -- Maximize / minimize clients
-    awful.key({ modkey,           }, "m",
-        function()
-            local c = client.focus
-            if c then
-                if not c.minimized then
-                    c.minimized = true
-                else
-                    c.minimized = false
-                end
-            else
-                c = awful.client.restore()
-                if c then
-                    client.focus = c
-                    c:raise()
-                end
-            end
-        end,
-        {description = "maximize / minimize client", group = "client"}
-    ),
-
     -- Tag browsing
     awful.key({ modkey, super }, "Left",   awful.tag.viewprev,            {description = "view previous", group = "tag"}),
     awful.key({ modkey, super }, "Right",  awful.tag.viewnext,            {description = "view next", group = "tag"}),
@@ -408,11 +386,13 @@ globalkeys = my_table.join (
 
     -- Setup program shortcuts
 
-    awful.key({ modkey }, "w", function () awful.util.spawn( browser1 ) end, {description = browser1, group = "hotkeys"}),
-    awful.key({ modkey }, "d",
+    awful.key({ modkey          }, "w", function () awful.util.spawn( browser1 ) end, {description = browser1, group = "hotkeys"}),
+    awful.key({ modkey, "Shift" }, "w", function () awful.util.spawn( browser_private) end, {description = browser_private, group = "hotkeys"}), 
+    awful.key({ modkey          }, "d",
         function ()
-            awful.spawn(string.format("dmenu_run -i -nb '#4C3E41' -nf '#FCE1D4' -sb '#FCE1D4' -sf '#4C3E41' -fn FiraCodeMedium:bold:pixelsize=14",
-            beautiful.bg_normal, beautiful.fg_normal, beautiful.bg_focus, beautiful.fg_focus))
+            --awful.spawn(string.format("dmenu_run -i -nb '#4C3E41' -nf '#FCE1D4' -sb '#FCE1D4' -sf '#4C3E41' -fn FiraCodeMedium:bold:pixelsize=14",
+            --beautiful.bg_normal, beautiful.fg_normal, beautiful.bg_focus, beautiful.fg_focus))
+            awful.spawn("dmenu_run -i -nb '#4C3E41' -nf '#FCE1D4' -sb '#FCE1D4' -sf '#4C3E41' -fn FiraCodeMedium:bold:pixelsize=14")
         end,
         {description = "show dmenu", group = "hotkeys"}
     ),
@@ -420,9 +400,9 @@ globalkeys = my_table.join (
     awful.key({ modkey }, "Return", function () awful.spawn(terminal) end,                      {description = terminal, group = "hotkeys"}),
     awful.key({ modkey }, "e",      function () awful.util.spawn( editorgui ) end,              {description = "run gui editor", group = "hotkeys"}),
     awful.key({ modkey }, "p",      function () awful.util.spawn( "kitty -T 'htop task manager' htop" ) end, {description = "htop", group = "hotkeys"}),
-    awful.key({ modkey }, "t",      function () awful.util.spawn( terminal ) end,               {description = "terminal", group = "hotkeys"}),
+    awful.key({ modkey }, "t",      function () awful.util.spawn( mailclient ) end,             {description = "thunderbird", group = "hotkeys"}),
     awful.key({ modkey }, "v",      function () awful.util.spawn( "pavucontrol" ) end,          {description = "pulseaudio control", group = "hotkeys"}),
-    awful.key({ modkey }, "x",      function () awful.util.spawn( "arcolinux-logout" ) end,     {description = "exit", group = "hotkeys"}),
+    awful.key({ modkey }, "c",      function () awful.util.spawn( "arcolinux-logout" ) end,     {description = "exit", group = "hotkeys"}),
     awful.key({ modkey }, "Escape", function () awful.util.spawn( "xkill" ) end,                {description = "Kill proces", group = "hotkeys"}),
 
     awful.key({ modkey, "Shift" }, "Return", function() awful.util.spawn( filemanager ) end, {description = "Open filemanager", group = "hotkeys"}),
@@ -449,7 +429,7 @@ globalkeys = my_table.join (
     ),
 
     awful.key({ modkey, "Shift"  }, "r", awesome.restart,                                      {description = "reload awesome", group = "awesome"}),
-    awful.key({ modkey, "Shift"  }, "x", awesome.quit,                                         {description = "quit awesome", group = "awesome"}),
+    awful.key({ modkey, "Shift"  }, "c", awesome.quit,                                         {description = "quit awesome", group = "awesome"}),
 
     awful.key({ modkey }, "x",
         function ()
@@ -486,8 +466,8 @@ globalkeys = my_table.join (
     -- Simple key bindings
 
     -- ALSA volume control
-    awful.key({ }, "XF86AudioRaiseVolume", function () os.execute("amixer -q set Master 1%+") end),
-    awful.key({ }, "XF86AudioLowerVolume", function () os.execute("amixer -q set Master 1%-") end),
+    awful.key({ }, "XF86AudioRaiseVolume", function () os.execute("amixer -q set Master 2%+") end),
+    awful.key({ }, "XF86AudioLowerVolume", function () os.execute("amixer -q set Master 2%-") end),
     awful.key({ }, "XF86AudioMute",        function () os.execute("amixer -q set Master toggle") end),
 
     -- Media keys supported by vlc, spotify, audacious, xmm2, and web browsers
@@ -501,16 +481,25 @@ globalkeys = my_table.join (
 
 clientkeys = my_table.join(
 
-    awful.key({ modkey,           }, "f",
+    awful.key({ modkey, "Shift"   }, "f",
         function (c)
             c.fullscreen = not c.fullscreen
-            c:raise()
         end,
-        {description = "toggle fullscreen", group = "client"}
+        {description = "toggle fullscreen", group = "client" }
     ),
 
+    awful.key({ modkey,           }, "f",
+        function (c)
+            c.floating = not c.floating
+            c.width = c.screen.geometry.width * 3/5
+            c.x = c.screen.geometry.x+(c.screen.geometry.width/5)
+            c.height = c.screen.geometry.height * 3/5
+            c.y = c.screen.geometry.height * 1/5
+        end,
+        {description = "toggle floating", group = "client" }
+    ),
 
-    awful.key({ modkey, "Shift"   }, "f",
+    awful.key({ modkey, "Shift"   }, "m",
         function(c)
             c.maximized = not c.maximized
             c:raise()
@@ -518,9 +507,30 @@ clientkeys = my_table.join(
         {description = "toggle maximize", group = "client" }
     ),
 
+    -- Maximize / minimize clients
+    awful.key({ modkey,           }, "m",
+        function()
+            local c = client.focus
+            if c then
+                if not c.minimized then
+                    c.minimized = true
+                else
+                    c.minimized = false
+                end
+            else
+                c = awful.client.restore()
+                if c then
+                    client.focus = c
+                    c:raise()
+                end
+            end
+        end,
+        {description = "show / minimize client", group = "client"}
+    ),
+
     awful.key({ modkey, "Shift"   }, "q",      function (c) c:kill()                         end,             {description = "close", group = "hotkeys"}),
-    awful.key({ modkey, "Control" }, "Return", function (c) c:swap(awful.client.getmaster()) end,             {description = "move to master", group = "client"}),
     awful.key({ modkey,           }, "o",      function (c) c:move_to_screen()               end,             {description = "move to screen", group = "client"})
+    -- awful.key({ modkey, "Control" }, "Return", function (c) c:swap(awful.client.getmaster()) end,             {description = "move to master", group = "client"}),
 
 )
 
@@ -622,14 +632,6 @@ awful.rules.rules = {
     -- Titlebars
     { rule_any = { type = { "dialog", "normal" } }, properties = { titlebars_enabled = false } },
 
-    -- Firefox should not start maximized
-    { rule = { class = "firefox" },
-        properties = { maximized = false, floating = false } },
-
-    -- Thunar should not start maximized
-    { rule = { class = "thunar" },
-        properties = { maximized = false, floating = false } },
-
     -- VS Code should not start maximized
     { rule = { class = "code" },
         properties = { maximized = false, floating = false } },
@@ -651,43 +653,48 @@ awful.rules.rules = {
 
 
     -- Floating clients.
-    { rule_any = {
-        instance = {
-          "copyq",  -- Includes session name in class.
-        },
-        class = {
-          "Arandr",
-          "Arcolinux-welcome-app.py",
-          "Blueberry",
-          "Galculator",
-          "Gnome-font-viewer",
-          "Gpick",
-          "Imagewriter",
-          "Font-manager",
-          "Kruler",
-          "MessageWin",  -- kalarm.
-          "arcolinux-logout",
-          "Peek",
-          "Skype",
-          "System-config-printer.py",
-          "Sxiv",
-          "Unetbootin.elf",
-          "Wpa_gui",
-          "pinentry",
-          "veromix",
-          "xtightvncviewer",
-          "Xfce4-terminal"},
+    { 
+        rule_any = {
+            instance = {
+                "copyq",  -- Includes session name in class.
+                "Msgcompose", -- Thunderbirds new email
+            },
+            class = {
+                "Arcolinux-welcome-app.py",
+                "Galculator",
+                "Gnome-font-viewer",
+                "Gpick",
+                "Imagewriter",
+                "Font-manager",
+                "Kruler",
+                "MessageWin",  -- kalarm.
+                "arcolinux-logout",
+                "Peek",
+                "Skype",
+                "System-config-printer.py",
+                "Sxiv",
+                "Unetbootin.elf",
+                "Wpa_gui",
+                "xtightvncviewer",
+                "Xfce4-terminal"
+            },
 
-        name = {
-          "Event Tester",  -- xev.
+            name = {
+              "Event Tester",  -- xev.
+              "ownCloud"    -- OwnCloud client 
+            },
+            role = {
+              "AlarmWindow",  -- Thunderbird's calendar.
+              "pop-up",       -- e.g. Google Chrome's (detached) Developer Tools.
+              "Preferences",
+              "setup",
+            }
         },
-        role = {
-          "AlarmWindow",  -- Thunderbird's calendar.
-          "pop-up",       -- e.g. Google Chrome's (detached) Developer Tools.
-          "Preferences",
-          "setup",
-        }
-      }, properties = { floating = true }},
+        properties = { floating = true },
+        callback = function (c)
+            awful.placement.centered(c, nil)
+        end
+    },
 
     -- Floating clients but centered in screen
     { 
