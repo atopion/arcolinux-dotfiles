@@ -5,5 +5,8 @@
 #
 #
 
+set fish_greeting
 
-# neofetch
+fish_ssh_agent
+
+neofetch
