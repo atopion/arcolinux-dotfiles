@@ -1,0 +1,208 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Delete">
+      <i c="2" l="1615883489971" />
+    </e>
+    <e n="$SelectAll">
+      <i c="1" l="1615894831019" />
+    </e>
+    <e n="$Undo">
+      <i c="12" l="1615894550452" />
+    </e>
+    <e n="BraceOrQuoteOut">
+      <i c="1" l="1615809365541" />
+    </e>
+    <e n="Build">
+      <i c="25" l="1615894325530" />
+    </e>
+    <e n="CIDR.Lang.Cpp.NewClass">
+      <i c="4" l="1615810752118" />
+    </e>
+    <e n="CMake.ReloadCMakeProject">
+      <i c="18" l="1615832180827" />
+    </e>
+    <e n="CPP.NewCppFile">
+      <i c="2" l="1615756722712" />
+    </e>
+    <e n="CPP.NewHeaderFile">
+      <i c="2" l="1615748951256" />
+    </e>
+    <e n="Clean">
+      <i c="5" l="1615759213616" />
+    </e>
+    <e n="CodeCompletion">
+      <i c="1" l="1615751797689" />
+    </e>
+    <e n="CollapseBlock">
+      <i c="1" l="1615832856408" />
+    </e>
+    <e n="CollapseSelection">
+      <i c="1" l="1615833672308" />
+    </e>
+    <e n="CopyPaths">
+      <i c="2" l="1615758711013" />
+    </e>
+    <e n="Coverage">
+      <i c="1" l="1615834820223" />
+    </e>
+    <e n="Debug">
+      <i c="26" l="1615837524474" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="175" l="1615888327338" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="405" l="1615894111034" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="1" l="1615801703909" />
+    </e>
+    <e n="EditorCopy">
+      <i c="24" l="1615894825974" />
+    </e>
+    <e n="EditorCut">
+      <i c="5" l="1615894540288" />
+    </e>
+    <e n="EditorDown">
+      <i c="664" l="1615894110496" />
+    </e>
+    <e n="EditorEnter">
+      <i c="3" l="1615811726692" />
+    </e>
+    <e n="EditorIndentSelection">
+      <i c="1" l="1615831324823" />
+    </e>
+    <e n="EditorLeft">
+      <i c="53" l="1615884062046" />
+    </e>
+    <e n="EditorNextWordWithSelection">
+      <i c="2" l="1615812000072" />
+    </e>
+    <e n="EditorPageDown">
+      <i c="9" l="1615803033005" />
+    </e>
+    <e n="EditorPaste">
+      <i c="59" l="1615894831946" />
+    </e>
+    <e n="EditorPreviousWordWithSelection">
+      <i c="2" l="1615812000290" />
+    </e>
+    <e n="EditorRight">
+      <i c="78" l="1615837519647" />
+    </e>
+    <e n="EditorStartNewLine">
+      <i c="1" l="1615757459662" />
+    </e>
+    <e n="EditorTab">
+      <i c="197" l="1615888257036" />
+    </e>
+    <e n="EditorUnindentSelection">
+      <i c="6" l="1615831335658" />
+    </e>
+    <e n="EditorUp">
+      <i c="275" l="1615834174348" />
+    </e>
+    <e n="FileChooser.NewFolder">
+      <i c="1" l="1615728873103" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="1" l="1615797541233" />
+    </e>
+    <e n="GotoImplementation">
+      <i c="4" l="1615803241146" />
+    </e>
+    <e n="InsertLiveTemplate">
+      <i c="1" l="1615729569770" />
+    </e>
+    <e n="NewDir">
+      <i c="1" l="1615800935800" />
+    </e>
+    <e n="NewFile">
+      <i c="1" l="1615837960407" />
+    </e>
+    <e n="PasteMultiple">
+      <i c="2" l="1615746317766" />
+    </e>
+    <e n="Replace">
+      <i c="3" l="1615836901008" />
+    </e>
+    <e n="Resume">
+      <i c="163" l="1615834671981" />
+    </e>
+    <e n="Run">
+      <i c="191" l="1615894633185" />
+    </e>
+    <e n="RunAnything">
+      <i c="3" l="1615834191190" />
+    </e>
+    <e n="SaveAll">
+      <i c="4" l="1615894835423" />
+    </e>
+    <e n="SearchEverywhere">
+      <i c="7" l="1615826432470" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="1" l="1615746626298" />
+    </e>
+    <e n="ShowSettings">
+      <i c="5" l="1615795860313" />
+    </e>
+    <e n="Stop">
+      <i c="28" l="1615884418197" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="9" l="1615834818545" />
+    </e>
+    <e n="WelcomeScreen.Plugins">
+      <i c="1" l="1615795558009" />
+    </e>
+    <e n="com.intellij.cloudConfig.CloudConfigWidget$1">
+      <i c="1" l="1615819484805" />
+    </e>
+    <e n="com.intellij.find.SearchReplaceComponent$13">
+      <i c="2" l="1615836914923" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.ToggleRegex">
+      <i c="2" l="1615836855362" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1615883492755" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+      <i c="17506" l="1615894627017" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$StatusAction">
+      <i c="1" l="1615813602166" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="2" l="1615812223751" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="13" l="1615836903499" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="2" l="1615835568465" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="17" l="1615894538242" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$5">
+      <i c="1" l="1615728847889" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$1">
+      <i c="1" l="1615883499117" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="7" l="1615834912149" />
+    </e>
+    <e n="com.maddyhome.idea.vim.ui.ShortcutConflictsSettings">
+      <i c="4" l="1615811969271" />
+    </e>
+    <e n="com.maddyhome.idea.vim.ui.ex.ExShortcutKeyAction">
+      <i c="436" l="1615894627802" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="1" l="1615729166721" />
+    </e>
+  </component>
+</application>

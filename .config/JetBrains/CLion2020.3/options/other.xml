@@ -1,0 +1,41 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/bin/node" />
+    <local-interpreter path="/usr/bin/node" />
+  </component>
+  <component name="ProjectPluginTrackerManager">
+    <option name="trackers">
+      <map>
+        <entry key="1pkZ8dY51SGjgcOyNyqMe4ENTy0">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="SettingsSearchHistory" value="tab" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="CL-203.7148.70-2b3d9bdba79801603f9bac2c5fb12d48904f09ca5304d2d7bb927cb22ace0550" />
+    <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="evlsprt3.203" value="17" />
+    <property name="experimentalFeature.editor.reader.mode" value="false" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++" />
+    <property name="file.gist.reindex.count" value="38" />
+    <property name="ide.updates.previous.build.number" value="CL-203.7148.70" />
+    <property name="ideavim.statistics.timestamp" value="1615975074027" />
+    <property name="lastSeenTip" value="neue-CodeCompletionNoShift.html" />
+    <property name="lastTimeTipsWereShown" value="1615975077472" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++" />
+    <property name="mt.showInstallAtom" value="true" />
+    <property name="mt.showStatisticsAgreement" value="true" />
+    <property name="seenTips" value="neue-InlineVariable.html,neue-Switcher.html,neue-CodeCompletionNoShift.html" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="4.1.3" />
+  </component>
+</application>

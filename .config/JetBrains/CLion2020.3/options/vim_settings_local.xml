@@ -1,0 +1,170 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry encoding="base64">XDw7XD4=</entry>
+      </history-search>
+      <history-cmd>
+        <entry encoding="base64">cQ==</entry>
+        <entry encoding="base64">dHA=</entry>
+        <entry encoding="base64">dGFicA==</entry>
+        <entry encoding="base64">d3E=</entry>
+        <entry encoding="base64">dw==</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="/GDB" timestamp="1615837529083">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/VisualHull.h" timestamp="1615885880616">
+        <mark key="'" line="41" column="0" />
+        <mark key="[" line="21" column="4" />
+        <mark key="]" line="22" column="10" />
+        <mark key="." line="22" column="9" />
+        <mark key="^" line="22" column="10" />
+      </file>
+      <file name="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/Configuration.cpp" timestamp="1615826955249">
+        <mark key="[" line="10" column="29" />
+        <mark key="]" line="10" column="30" />
+        <mark key="." line="10" column="29" />
+        <mark key="^" line="10" column="30" />
+      </file>
+      <file name="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/CameraCalibration.h" timestamp="1615810494491">
+        <mark key="[" line="27" column="18" />
+        <mark key="]" line="28" column="18" />
+        <mark key="^" line="28" column="18" />
+        <mark key="." line="28" column="17" />
+      </file>
+      <file name="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/data/simple-unity-scene/calibration-kalibr.yaml" timestamp="1615798673455">
+        <mark key="[" line="7" column="12" />
+        <mark key="]" line="7" column="13" />
+        <mark key="^" line="7" column="13" />
+        <mark key="." line="7" column="12" />
+      </file>
+      <file name="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/DataLoader.cpp" timestamp="1615826986576">
+        <mark key="[" line="40" column="91" />
+        <mark key="]" line="40" column="90" />
+        <mark key="." line="40" column="89" />
+        <mark key="^" line="40" column="90" />
+      </file>
+      <file name="/" timestamp="1615796037792">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/Configuration.h" timestamp="1615756652328">
+        <mark key="'" line="23" column="8" />
+        <mark key="[" line="33" column="2" />
+        <mark key="]" line="33" column="2" />
+        <mark key="." line="33" column="2" />
+        <mark key="^" line="5" column="0" />
+      </file>
+      <file name="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/DataLoader.h" timestamp="1615825045952">
+        <mark key="[" line="34" column="20" />
+        <mark key="]" line="34" column="9" />
+        <mark key="^" line="34" column="9" />
+        <mark key="." line="34" column="8" />
+      </file>
+      <file name="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/Utils.cpp" timestamp="1615825605287">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="^" line="15" column="47" />
+        <mark key="." line="16" column="0" />
+      </file>
+      <file name="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/CMakeLists.txt" timestamp="1615832182309">
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="9" column="51" />
+        <mark key="." line="9" column="50" />
+        <mark key="^" line="9" column="51" />
+      </file>
+      <file name="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/VisualHull.cpp" timestamp="1615894627025">
+        <mark key="'" line="63" column="79" />
+        <mark key="[" line="62" column="4" />
+        <mark key="]" line="45" column="6" />
+        <mark key="." line="45" column="5" />
+        <mark key="^" line="45" column="6" />
+      </file>
+      <file name="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/main.cpp" timestamp="1615885708640">
+        <mark key="[" line="15" column="34" />
+        <mark key="]" line="16" column="4" />
+        <mark key="^" line="16" column="4" />
+        <mark key="." line="16" column="3" />
+      </file>
+      <file name="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/Utils.h" timestamp="1615825619293">
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+      </file>
+      <file name="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/CameraCalibration.cpp" timestamp="1615886241276">
+        <mark key="[" line="51" column="0" />
+        <mark key="]" line="51" column="8" />
+        <mark key="." line="51" column="7" />
+        <mark key="^" line="51" column="8" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="17" column="8" filename="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/Configuration.h" />
+      <jump line="6" column="0" filename="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/DataLoader.h" />
+      <jump line="37" column="0" filename="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/VisualHull.h" />
+      <jump line="64" column="79" filename="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++/VisualHull.cpp" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIHRoaXMtPmluaXRpYWxpemVfdm94ZWxzKCk7Cg==</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">IA==</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">XDw7XD4=</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaXMtPnZveGVsc18zRC5hdDxkb3VibGU+KGwsIDApID0geDsK</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIHRoaXMtPmluaXRpYWxpemVfdm94ZWxzKCk7Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIHRoaXMtPmluaXRpYWxpemVfdm94ZWxzKCk7Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHRoaXMtPmluaXRpYWxpemVfdm94ZWxzKCk7Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHRoaXMtPmluaXRpYWxpemVfdm94ZWxzKCk7Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIHRoaXMtPmluaXRpYWxpemVfdm94ZWxzKCk7Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGNvdXQgPDwgIiBDICIgPDwgYyA8PCBlbmRsOwo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGNvdXQgPDwgTWF0KDM0LCAzNCwgQ1ZfMzJGQzEsIHRoaXMtPnZveGVsc19ncmlkLmRhdGEpIDw8IGVuZGw7Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBjb3V0IDw8IHBvaW50czJEIDw8IGVuZGw7Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgY291dCA8PCB4IDw8ICIsICIgPDwgeSA8PCBlbmRsOwo=</text>
+      </register>
+      <register name=":" type="4">
+        <text encoding="base64">dw==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search encoding="base64">XDw7XD4=</last-search>
+      <last-offset encoding="base64" />
+      <last-pattern encoding="base64">XDw7XD4=</last-pattern>
+      <last-dir>-1</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+</application>
