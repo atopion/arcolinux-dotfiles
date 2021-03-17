@@ -10,3 +10,6 @@
 [submodule ".vim/pack/syntax/start/vim-fish"]
 	path = .vim/pack/syntax/start/vim-fish
 	url = https://github.com/dag/vim-fish
+[submodule "/home/atopi/.config/awesome/lain"]
+	path = /home/atopi/.config/awesome/lain
+	url = https://github.com/lcpz/lain.git
