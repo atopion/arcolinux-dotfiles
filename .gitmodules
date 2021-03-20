@@ -10,9 +10,12 @@
 [submodule ".vim/pack/syntax/start/vim-fish"]
 	path = .vim/pack/syntax/start/vim-fish
 	url = https://github.com/dag/vim-fish
-[submodule "/home/atopi/.config/awesome/lain"]
-	path = /home/atopi/.config/awesome/lain
+[submodule ".config/awesome/lain"]
+	path = .config/awesome/lain
 	url = https://github.com/lcpz/lain.git
-[submodule "/home/atopi/.config/awesome/freedesktop"]
-	path = /home/atopi/.config/awesome/freedesktop
+[submodule ".config/awesome/freedesktop"]
+	path = .config/awesome/freedesktop
 	url = https://github.com/lcpz/awesome-freedesktop.git
+[submodule ".config/awesome/awesome-wm-widgets"]
+	path = .config/awesome/awesome-wm-widgets
+	url = https://github.com/streetturtle/awesome-wm-widgets.git
