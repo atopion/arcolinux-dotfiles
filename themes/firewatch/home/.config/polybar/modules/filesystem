@@ -1,0 +1,15 @@
+
+[module/filesystem]
+type = internal/fs
+interval = 25
+
+mount-0 = /
+
+format-mounted = <label-mounted>
+format-mounted-foreground = #b48ead
+format-mounted-prefix = " "
+label-mounted =  " %free%"
+
+format-unmounted = <label-unmounted>
+format-unmounted-prefix =
+label-unmounted = %mountpoint%: not mounted

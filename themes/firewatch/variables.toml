@@ -1,0 +1,71 @@
+[font]
+font_regular = "Fira Code Medium"
+font_bold = "Fira Code Bold"
+font_italic = "Fira Code Medium"
+font_bold_italic = "Fira Code Bold"
+font_polybar = "Fira Code"
+font_awesome_1 = "Font Awesome 5 Free"
+font_awesome_2 = "Font Awesome 5 Brands"
+font_i3 = "pango:fira code medium 10"
+
+font_size = 12.0
+font_offset = 2
+
+[colors]
+kitty_foreground = "#dddddd"
+kitty_background = "#212733"
+
+polybar_foreground = "#ffe9dc"
+polybar_foreground_date_prefix = "#d08770"
+polybar_foreground_spotify_prefix = "#a3be8c"
+polybar_foreground_powermenu = "#bf616a"
+polybar_background = "#866972"
+polybar_background_alt = "#e7d8b1"
+polybar_background_workspaces_focused = "#a17d88"
+
+i3_border_focused     = "#e64f40"
+i3_border_unfocused   = "#866972"
+i3_border_inactive    = "#866972"
+i3_border_urgent      = "#866972"
+i3_border_placeholder = "#866972"
+i3_background         = "#285577"
+i3_text               = "#ffffff"
+
+rofi_foreground = "#d8dee9"
+rofi_background = "#2e3440"
+rofi_accent = "#434c5e"
+
+rofi_red = "#bf616a"
+rofi_green = "#a3be8c"
+rofi_yellow = "#ebcb8b"
+rofi_blue = "#81a1c1"
+rofi_purple = "#b48ead"
+rofi_cyan = "#88c0d0"
+
+
+[padding]
+polybar_padding = 2
+i3_inner_gap = 20
+i3_top_gap = 35
+i3_border_pixel = 4
+i3_border_floating_pixel = 4
+
+[opacity]
+kitty_opacity = 0.95
+
+[gtk3]
+gtk-theme-name = "Arc-Dark"
+gtk-icon-theme-name = "breeze-dark"
+gtk-font-name = "Cantarell 11"
+gtk-cursor-theme-name = "Bibata-Modern-Ice"
+gtk-cursor-theme-size = "0"
+gtk-toolbar-style = "GTK_TOOLBAR_BOTH_HORIZ"
+gtk-toolbar-icon-size = "GTK_ICON_SIZE_LARGE_TOOLBAR"
+gtk-button-images = "0"
+gtk-menu-images = "0"
+gtk-enable-event-sounds = "1"
+gtk-enable-input-feedback-sounds = "1"
+gtk-xft-antialias = "1"
+gtk-xft-hinting = "1"
+gtk-xft-hintstyle = "hintmedium"
+

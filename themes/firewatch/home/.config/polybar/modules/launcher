@@ -1,0 +1,9 @@
+
+[module/launcher]
+type=custom/text
+content = 
+content-font=2
+content-foreground=#81a1c1
+content-padding=0
+click-left= "bash ~/.config/polybar/scripts/launcher.sh"
+

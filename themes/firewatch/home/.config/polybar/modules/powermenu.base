@@ -1,0 +1,8 @@
+
+[module/powermenu]
+type = custom/text
+content = 
+content-padding = 0
+content-foreground = ${colors.polybar_foreground_powermenu}
+click-left = "~/.config/polybar/scripts/powermenu 1720 35"
+

@@ -1,0 +1,14 @@
+
+font_family         ${font.font_regular}
+bold_font           ${font.font_bold}
+italic_font         ${font.font_italic}
+bold_italic_font    ${font.font_bold_italic}
+
+font_size           ${font.font_size}
+
+disable_ligatures   never
+
+foreground          ${colors.kitty_foreground}
+background          ${colors.kitty_background}
+background_opacity  ${opacity.kitty_opacity}
+

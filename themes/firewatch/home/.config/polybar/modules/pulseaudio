@@ -1,0 +1,25 @@
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-volume-padding = 2
+format-volume-margin = 2
+format-volume-overline = ${colors.foreground}
+format-volume = <ramp-volume><label-volume>
+label-volume = %percentage:2:2%%
+format-volume-background = ${colors.background}
+use-ui-max = true
+interval = 5
+
+ramp-volume-0 = ""
+ramp-volume-1 = ""
+ramp-volume-2 = ""
+
+
+label-muted = " muted"
+label-muted-background = ${colors.background}
+format-muted-foreground = ${colors.grey}
+format-muted-overline = ${colors.grey}
+format-muted-margin = 2
+format-muted-padding = 2
+

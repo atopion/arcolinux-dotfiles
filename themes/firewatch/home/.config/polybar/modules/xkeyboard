@@ -1,0 +1,11 @@
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+
+format-prefix = 
+format-foreground = ${colors.foreground-alt}
+label-layout = " %layout%"
+
+label-indicator-foreground = ${colors.alert}
+label-indicator-padding = 2

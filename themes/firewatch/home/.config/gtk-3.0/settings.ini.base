@@ -1,0 +1,15 @@
+[Settings]
+gtk-theme-name=${gtk3.gtk-theme-name}
+gtk-icon-theme-name=${gtk3.gtk-icon-theme-name}
+gtk-font-name=${gtk3.gtk-font-name}
+gtk-cursor-theme-name=${gtk3.gtk-cursor-theme-name}
+gtk-cursor-theme-size=${gtk3.gtk-cursor-theme-size}
+gtk-toolbar-style=${gtk3.gtk-toolbar-style}
+gtk-toolbar-icon-size=${gtk3.gtk-toolbar-icon-size}
+gtk-button-images=${gtk3.gtk-button-images}
+gtk-menu-images=${gtk3.gtk-menu-images}
+gtk-enable-event-sounds=${gtk3.gtk-enable-event-sounds}
+gtk-enable-input-feedback-sounds=${gtk3.gtk-enable-input-feedback-sounds}
+gtk-xft-antialias=${gtk3.gtk-xft-antialias}
+gtk-xft-hinting=${gtk3.gtk-xft-hinting}
+gtk-xft-hintstyle=${gtk3.gtk-xft-hintstyle}

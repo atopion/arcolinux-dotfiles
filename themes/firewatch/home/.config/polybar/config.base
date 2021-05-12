@@ -1,0 +1,65 @@
+; My base polybar config
+
+
+; Includes
+
+include-directory = /home/atopi/.config/polybar/modules
+
+[bar/master]
+height = 35
+width = 100%
+
+fixed-center = true
+bottom = false
+enable-ipc = true
+
+background = ${colors.polybar_background}
+foreground = ${colors.polybar_foreground}
+
+line-size = 0
+line-color = ${colors.polybar_background_alt}
+
+border-size = 0
+border-color = ${colors.polybar_background}
+
+font-0 = ${font.font_polybar}:style=normal:size=13;${font.font_offset}
+font-1 = ${font.font_awesome_1}:style=Solid:pixelsize=11;${font.font_offset}
+font-2 = ${font.font_awesome_2}:pixelsize=11;${font.font_offset}
+
+padding-left = 1
+padding-right = 1
+
+module-margin-left = 1 
+module-margin-right = 0 
+
+
+cursor-click = pointer
+
+override-redirect = true
+
+wm-restack = i3
+
+modules-left   = launcher i3-workspaces
+modules-center = spotify
+modules-right  = date volume powermenu
+
+
+
+[bar/left]
+inherit = bar/master
+monitor = DP-0
+
+[bar/right]
+inherit = bar/master
+monitor = HDMI-1
+
+tray-position = right
+tray-maxsize  = 16
+
+
+[settings]
+screenchange-reload = true
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0
