@@ -1,0 +1,181 @@
+#
+# wm independent hotkeys
+#
+
+# terminal emulator
+alt + Return
+	kitty
+
+# PCManFM
+alt + shift + Return
+    pcmanfm
+
+# Firefox
+alt + {_,shift +} w
+    firefox {_,-private-window}
+
+# Thunderbird
+alt + t
+    thunderbird
+
+# VS Code
+alt + e
+    code
+
+# make sxhkd reload its configuration files:
+alt + Escape
+	pkill -USR1 -x sxhkd
+
+# program launcher
+alt + @space
+    bash ~/.config/polybar/scripts/launcher.sh
+
+# Launch rofi
+alt + d
+	rofi -show drun
+
+# Set sound-output: Speakers
+alt + comma
+    ~/.local/bin/set-sound.sh speakers
+
+alt + period
+    ~/.local/bin/set-sound.sh tv
+
+alt + F11
+    python /home/atopi/ownCloud/Masterarbeit/Code/visual-hull/graphics-pipeline/plot.py projection c++
+
+alt + F12
+    python /home/atopi/ownCloud/Masterarbeit/Code/visual-hull/graphics-pipeline/plot.py raycasting c++
+
+#
+# bspwm hotkeys
+#
+
+# powermenu
+alt + x
+	sh -c "~/.config/polybar/modules/powermenu 1720 60"
+
+# restart bspwm
+alt + shift + r
+	bspc wm -r
+
+# close and kill
+alt + shift + q
+	bspc node -c
+
+# alternate between the tiled and monocle layout
+alt + m
+	bspc desktop -l next
+
+# send the newest marked node to the newest preselected node
+alt + y
+	bspc node newest.marked.local -n newest.!automatic.local
+
+# swap the current node and the biggest window
+alt + g
+	bspc node -s biggest.window
+
+#
+# state/flags
+#
+
+# set the window state
+alt + {t,shift + t,s,f}
+	bspc node -t \~{tiled,pseudo_tiled,floating,fullscreen}
+
+# set the node flags
+alt + ctrl + {m,x,y,z}
+	bspc node -g {marked,locked,sticky,private}
+
+#
+# Scratchpad
+#
+
+alt + c
+    id=$(cat /tmp/scratchid);\
+    bspc node $id --flag hidden;bspc node -f $id
+
+
+#
+# focus/swap
+#
+
+# focus the node in the given direction
+alt + {h,j,k,l}
+	bspc node -f {west,south,north,east} --follow
+
+alt + {Left,Down,Up,Right}
+    bspc node -f {west,south,north,east} --follow
+
+# move the node in the given direction
+alt + shift + {h,j,k,l}
+	bspc node -s {west,south,north,east} --follow
+
+alt + shift + {Left,Down,Up,Right}
+    bspc node -s {west,south,north,east} --follow
+
+# focus the node for the given path jump
+super + alt + {p,b,comma,period}
+	bspc node -f @{parent,brother,first,second}
+
+# focus the next/previous window in the current desktop
+#alt + {_,shift + }c
+#	bspc node -f {next,prev}.local.!hidden.window
+
+# focus the next/previous desktop in the current monitor
+alt + {i, o}
+	bspc desktop -f {prev,next}.local
+
+alt + {u, p}
+    bspc monitor -f {west,east}
+
+alt + shift + {u, p}
+    bspc monitor -s {west,east}
+
+# focus the last node/desktop
+alt + {grave,Tab}
+	bspc {node,desktop} -f last
+
+# focus the older or newer node in the focus history
+super + alt + {o,i}
+	bspc wm -h off; \
+	bspc node {older,newer} -f; \
+	bspc wm -h on
+
+# focus or send to the given desktop
+#alt + {_,shift + }{1-9,0}
+#	bspc {desktop -f,node -d} '^{1-9,10}' --follow
+
+alt + {1-9,0}
+    bspc desktop -f '{1-9,10}'
+
+alt + shift + {1-9,0}
+    bspc node -d '{1-9,10}' --follow
+
+#alt + {_,shift + }{6-9,0}
+#bspc {desktop -f,node -d} '^{6-9,10}' --follow
+
+
+
+# Media Keys
+
+XF86AudioRaiseVolume
+    amixer -q set Master 2%+
+
+XF86AudioLowerVolume
+    amixer -q set Master 2%-
+
+XF86AudioMute
+    amixer -q set Master toggle
+
+XF86AudioPlay
+    playerctl play-pause
+
+XF86AudioNext
+    playerctl next
+
+XF86AudioPrev
+    playerctl previous
+
+XF86AudioStop
+    playerctl stop

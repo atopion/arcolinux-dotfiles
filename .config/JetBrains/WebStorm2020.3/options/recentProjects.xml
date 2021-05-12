@@ -1,0 +1,32 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/ownCloud/Code/DietTemplateApp/frontend/ReactTemplateApp">
+          <value>
+            <RecentProjectMetaInfo frameTitle="ReactTemplateApp – App.tsx" projectWorkspaceId="1qNuHofB0xEBKki5WuqjvVcGISO">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-203.7717.59" />
+              <option name="buildTimestamp" value="1615813625003" />
+              <frame x="24" y="46" width="1872" height="1010" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1616952314818" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ownCloud/Code/DietTemplateApp/frontend/DietTemplateApp">
+          <value>
+            <RecentProjectMetaInfo frameTitle="DietTemplateApp – DataLoader.ts" opened="true" projectWorkspaceId="1qKuT9A3JZPjYI9WolnJA2C9iMW">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-203.7717.59" />
+              <option name="buildTimestamp" value="1615813661584" />
+              <frame x="24" y="46" width="1872" height="1010" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1617372834999" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

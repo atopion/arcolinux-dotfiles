@@ -1,0 +1,8 @@
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " "
+format-prefix-foreground = #5e81ac
+label = %percentage_used%%
+

@@ -15,11 +15,13 @@ local my_table = awful.util.table or gears.table -- 4.{0,1} compatibility
 
 -- Awesome widgets
 local logout_menu_widget = require("awesome-wm-widgets.logout-menu-widget.logout-menu")
-
+local weather_widget = require("awesome-wm-widgets.weather-widget.weather")
+local cpu_widget = require("awesome-wm-widgets.cpu-widget.cpu-widget")
+local volume_widget = require("awesome-wm-widgets.volume-widget.volume")
 
 local theme                                     = {}
 theme.dir                                       = os.getenv("HOME") .. "/.config/awesome/themes/sandcastle"
-theme.wallpaper                                 = theme.dir .. "/wallpaper-1.jpg"
+theme.wallpaper                                 = theme.dir .. "/wallpaper.jpg"
 theme.font                                      = "Fira Code Medium 11.0"
 theme.taglist_font                              = "Fira Code Bold 11.0"
 
@@ -128,13 +130,27 @@ theme.cal = lain.widget.cal({
 })
 
 -- Weather
-theme.weather = lain.widget.weather({
-    city_id = 2871039, -- Minden, Germany
-    settings = function()
-        units = math.floor(weather_now["main"]["temp"])
-        widget:set_markup(" " .. units .. "° ")
-    end
-})
+--theme.weather = lain.widget.weather({
+--    city_id = 2871039, -- Minden, Germany
+--    settings = function()
+--        units = math.floor(weather_now["main"]["temp"])
+--        widget:set_markup(" " .. units .. "° ")
+--    end
+--})
+
+--theme.weather = weather_widget({
+--    api_key = "8cdbe9449d0690a4b9915f021e4f093c",
+--    coordinates = {52.292726, 8.9598552} -- Minden, Germany
+--})
+
+--theme.cpu = cpu_widget({
+--    width = 40,
+--    step_width = 2,
+--    step_spacing = 1,
+--    process_info_max_length = 35,
+--    enable_kill_button = true
+--})
+
 
 -- Separator
 local separator       = wibox.widget.textbox(" ")
@@ -211,10 +227,27 @@ function theme.at_screen_connect(s)
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
             separator,
-            theme.weather.widget,
+            weather_widget({
+                api_key = '8cdbe9449d0690a4b9915f021e4f093c',
+                coordinates = {52.292726, 8.9598552},
+                show_hourly_forecast = true,
+                show_daily_forecast = true
+            }),
+            seperator,
+            cpu_widget({
+                width = 40,
+                step_width = 2,
+                step_spacing = 1,
+                enable_kill_button = true,
+                process_info_max_length = 128
+            }),
+            seperator,
+            volume_widget{
+                widget_type = 'arc'
+            },
             separator,
-            wibox.widget.systray(),
-            separator,
+            wibox.widget.systray(), 
+            seperator,
             mytextclock,
             logout_menu_widget(),
         },

@@ -1,0 +1,29 @@
+
+[module/bspwm]
+type = internal/bspwm
+
+; Only show workpsaces on the same output as the bar
+; pin-workspaces=true
+ws-icon-0 = I;
+ws-icon-1 = II;
+ws-icon-2 = III;
+ws-icon-default =
+
+format = <label-state> <label-mode>
+
+label-focused = %icon%
+label-focused-foreground = ${colors.background-alt}
+label-focused-padding = 2
+
+label-occupied = %icon%
+label-occupied-padding = 2
+
+label-urgent = %icon%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+label-empty = %icon%
+label-empty-foreground = ${colors.non}
+label-empty-padding = 2
+; Separator in between workspaces
+; label-separator = |

@@ -1,0 +1,13 @@
+[2021-05-12 13:08:15.448] [sharedprocess] [info] Deleted from disk ms-toolsai.jupyter /home/atopi/.vscode/extensions/ms-toolsai.jupyter-2021.6.811652604
+[2021-05-12 13:08:17.193] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-05-12 13:08:17.223] [sharedprocess] [info] Downloaded extension: ms-python.python /home/atopi/.config/Code/CachedExtensionVSIXs/ms-python.python-2021.5.829140558
+[2021-05-12 13:08:21.242] [sharedprocess] [info] Extracted extension to /home/atopi/.vscode/extensions/.fc1ef0f1-b05b-481b-9206-faaa2aed4bc5: ms-python.python
+[2021-05-12 13:08:21.269] [sharedprocess] [info] Renamed to /home/atopi/.vscode/extensions/ms-python.python-2021.5.829140558
+[2021-05-12 13:08:21.271] [sharedprocess] [info] Installation completed. ms-python.python
+[2021-05-12 13:08:21.455] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2021-05-12 13:08:23.484] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/atopi/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.5.1
+[2021-05-12 13:08:25.048] [sharedprocess] [info] Extracted extension to /home/atopi/.vscode/extensions/.f69a6e4e-5b6d-4f54-aae5-47cd933cf1dd: ms-python.vscode-pylance
+[2021-05-12 13:08:25.087] [sharedprocess] [info] Renamed to /home/atopi/.vscode/extensions/ms-python.vscode-pylance-2021.5.1
+[2021-05-12 13:08:25.088] [sharedprocess] [info] Installation completed. ms-python.vscode-pylance
+[2021-05-12 13:08:25.136] [sharedprocess] [info] Extensions installed successfully: ms-python.vscode-pylance
+[2021-05-12 13:08:25.143] [sharedprocess] [info] Extensions installed successfully: ms-python.python

@@ -1,16 +1,16 @@
 <application>
   <component name="DimensionService">
-    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1818" height="248" />
-    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1818" height="248" />
-    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1818" height="248" />
-    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1818" height="248" />
-    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1818" height="322" />
-    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1818" height="322" />
-    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1818" height="322" />
-    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1818" height="322" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1826" height="259" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1826" height="259" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1826" height="259" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1826" height="259" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1826" height="257" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1826" height="257" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1826" height="257" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1826" height="257" />
   </component>
   <component name="WindowManager">
-    <frame x="24" y="46" width="1872" height="1010" />
+    <frame x="970" y="55" width="922" height="997" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -29,5 +29,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="486" y="551" key="WELCOME_SCREEN/0.0.1920.1080/1920.0.1920.1080" timestamp="1615728839530" />
+    <state x="827" y="417" width="864" height="361" key="bookmarks" timestamp="1617193411838">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="827" y="417" width="864" height="361" key="bookmarks/0.0.1920.1080/1920.0.1920.1080" timestamp="1617193411838" />
   </component>
 </application>

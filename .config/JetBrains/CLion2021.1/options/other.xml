@@ -1,0 +1,102 @@
+<application>
+  <component name="CppNewDialogSettings">
+    <option name="addNewFilesToProject" value="false" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/bin/node" />
+    <local-interpreter path="/usr/bin/node" />
+  </component>
+  <component name="ProjectPluginTrackerManager">
+    <trackers>
+      <map>
+        <entry key="1qCCIUcysYNo7XHWarXypBGPjrT">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1qCGiYW5HadjEp1u0TRjUG5sZ6f">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1rhSv4e0WdVVIO9a0c9sAaK5ydZ">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1ruKbWJCQlKWECG0gqysbKd7SR0">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="0" />
+    <property name="AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
+    <property name="AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_STATUS_BAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="1" />
+    <property name="BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR" value="true" />
+    <property name="CLionExternalConfigurable.targets" value="0.3794038" />
+    <property name="CMakeConfigurable.configurations" value="0.094972074" />
+    <property name="CPPToolchains.toolchains" value="0.2592068" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="FindSplitterProportion" value="0.33026922" />
+    <property name="InstalledPluginsSearchHistory" value="single&#10;sing&#10;theme&#10;the&#10;/organization:Subtheme" />
+    <property name="MarketplacePluginsSearchHistory" value="single file executi&#10;single file executiojn&#10;single file&#10;theme" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="SettingsSearchHistory" value="tab" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="CL-211.7142.21-521f4393078909c346e02763c2d62e95af502bc150f4965a86c3eec5e9befcf9" />
+    <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="clion.initialConfigPerformed" value="true" />
+    <property name="debugger.speed.search.tree.option.hint.counter" value="1" />
+    <property name="evlsprt3.203" value="17" />
+    <property name="evlsprt3.211" value="11" />
+    <property name="experimentalFeature.editor.reader.mode" value="false" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull/raycasting-algorithm/c++&#10;/home/atopi/ownCloud/Masterarbeit/Code/visual-hull/raycasting-algorithm/cuda&#10;/home/atopi/ownCloud/Masterarbeit/Code/visual-hull/projection-algorithm/c++&#10;/home/atopi/ownCloud/Masterarbeit/Code/visual-hull/projection-algorithm/cuda&#10;/home/atopi/code/learning-cuda/mult.cu&#10;/bin/g++&#10;/bin/gcc&#10;/home/atopi/code/learning-cuda/add.cu&#10;/home/atopi/ownCloud/Masterarbeit/Code/visual-hull-new-algorithm&#10;/home/atopi/ownCloud/Masterarbeit/Code/visual-hull-new-algorithm/data/simple-unity-scene/calibration-kalibr.yaml&#10;/home/atopi/ownCloud/Masterarbeit/Code/visual-hull-v2-c++&#10;/home/atopi/ownCloud/Masterarbeit/Code/visual-hull-new-algorithm/c++" />
+    <property name="file.gist.reindex.count" value="379" />
+    <property name="fileTypeChangedCounter" value="1" />
+    <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.jetbrains.cidr.lang.OCHeaderFileTypeDetector" />
+    <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
+    <property name="ide.updates.previous.build.number" value="CL-211.7142.21" />
+    <property name="ideavim.statistics.timestamp" value="1618555538637" />
+    <property name="lastSeenTip" value="neue-DirDiff.html" />
+    <property name="lastTimeTipsWereShown" value="1618468939427" />
+    <property name="last_opened_file_path" value="/bin/g++" />
+    <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions" />
+    <property name="mt.showInstallAtom" value="true" />
+    <property name="mt.showStatisticsAgreement" value="true" />
+    <property name="seenTips" value="neue-SearchForGit.html,neue-Switcher.html,neue-CodeCompletionNoShift.html,neue-DragToOpen.html,neue-ScopesInTODO.html,neue-InlineVariable.html,neue-DBColors.html,neue-DeleteLine.html,neue-QuickSwitchScheme.html,neue-DirDiff.html" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="4.2.2" />
+  </component>
+  <component name="ToolbarSettingsService">
+    <option name="NEW_TOOLBAR_SETTINGS" value="OLD_NAVBAR" />
+  </component>
+</application>

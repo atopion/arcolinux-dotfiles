@@ -1,0 +1,8 @@
+[2021-05-12 13:08:03.486] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-05-12 13:08:03.487] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2021-05-12 13:08:06.864] [sharedprocess] [info] Downloaded extension: ms-python.python /home/atopi/.config/Code/CachedExtensionVSIXs/ms-python.python-2021.5.829140558
+[2021-05-12 13:08:07.190] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/atopi/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.6.832593372
+[2021-05-12 13:08:08.481] [sharedprocess] [info] Extracted extension to /home/atopi/.vscode/extensions/.3fdffaf5-1def-45e9-bcfd-2d4922ee6634: ms-toolsai.jupyter
+[2021-05-12 13:08:08.504] [sharedprocess] [info] Renamed to /home/atopi/.vscode/extensions/ms-toolsai.jupyter-2021.6.832593372
+[2021-05-12 13:08:08.507] [sharedprocess] [info] Installation completed. ms-toolsai.jupyter
+[2021-05-12 13:08:08.528] [sharedprocess] [info] Extensions installed successfully: ms-toolsai.jupyter

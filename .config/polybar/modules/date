@@ -1,0 +1,9 @@
+
+[module/date]
+type = internal/date
+interval = 5
+format-prefix-foreground = #d08770
+time      = %H:%M  %d.%m.%Y
+time-alt  = %A, %d %B %Y
+format-prefix = 
+label = " %time%"

@@ -1,0 +1,105 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-new-algorithm">
+          <value>
+            <RecentProjectMetaInfo frameTitle="visual-hull-new-algorithm [~/ownCloud/Masterarbeit/Code/visual-hull-new-algorithm]" projectWorkspaceId="1rhSrpJKWINekLZkYvn28UtOV9R">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-203.7717.62" />
+              <option name="buildTimestamp" value="1615839498733" />
+              <frame x="970" y="55" width="922" height="997" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1619427029385" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-new-algorithm/c++">
+          <value>
+            <RecentProjectMetaInfo frameTitle="visual-hull-new-algorithm – Utils.h" projectWorkspaceId="1qCGiYW5HadjEp1u0TRjUG5sZ6f">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-211.7142.21" />
+              <option name="buildTimestamp" value="1619104080551" />
+              <frame x="20" y="55" width="1872" height="997" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1619508314557" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-new-algorithm/cuda">
+          <value>
+            <RecentProjectMetaInfo frameTitle="cuda – ~/code/learning-cuda/mult.cu" projectWorkspaceId="1rhSv4e0WdVVIO9a0c9sAaK5ydZ">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-211.7142.21" />
+              <option name="buildTimestamp" value="1619104080551" />
+              <frame x="20" y="55" width="1872" height="997" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1619523499469" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++">
+          <value>
+            <RecentProjectMetaInfo frameTitle="visual_hull_v2_c__ – Configuration.cpp" projectWorkspaceId="1qCCIUcysYNo7XHWarXypBGPjrT">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-211.7142.21" />
+              <option name="buildTimestamp" value="1619104114072" />
+              <frame x="20" y="55" width="1872" height="997" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1619615858314" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull/projection-algorithm/cuda">
+          <value>
+            <RecentProjectMetaInfo frameTitle="visual_hull_cuda – time-trial.cu" projectWorkspaceId="1ruKbWJCQlKWECG0gqysbKd7SR0">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-211.7142.21" />
+              <option name="buildTimestamp" value="1619104113233" />
+              <frame x="20" y="37" width="1880" height="1023" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1620717454061" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull/raycasting-algorithm/cuda">
+          <value>
+            <RecentProjectMetaInfo frameTitle="cuda – main.cu" projectWorkspaceId="1rhSv4e0WdVVIO9a0c9sAaK5ydZ">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-211.7142.21" />
+              <option name="buildTimestamp" value="1619104118523" />
+              <frame x="970" y="37" width="930" height="1023" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1620807897210" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull/projection-algorithm/c++">
+          <value>
+            <RecentProjectMetaInfo frameTitle="visual_hull_c++ – VisualHull.h" projectWorkspaceId="1ruKbWJCQlKWECG0gqysbKd7SR0">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-211.7142.21" />
+              <option name="buildTimestamp" value="1619104118523" />
+              <frame x="20" y="37" width="930" height="1023" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1620808205683" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull/raycasting-algorithm/c++">
+          <value>
+            <RecentProjectMetaInfo frameTitle="visual-hull-new-algorithm – VisualHull.h" opened="true" projectWorkspaceId="1qCGiYW5HadjEp1u0TRjUG5sZ6f">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-211.7142.21" />
+              <option name="buildTimestamp" value="1619104118523" />
+              <frame x="20" y="37" width="1880" height="1023" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1620808292866" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-new-algorithm" />
+  </component>
+</application>

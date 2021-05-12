@@ -62,7 +62,7 @@ end
 -- }}}
 
 -- Setup the theme
-local theme = "sandcastle"
+local theme = "valley"
 local theme_path = string.format("%s/.config/awesome/themes/%s/theme.lua", os.getenv("HOME"), theme)
 beautiful.init(theme_path)
 
@@ -392,7 +392,8 @@ globalkeys = my_table.join (
         function ()
             --awful.spawn(string.format("dmenu_run -i -nb '#4C3E41' -nf '#FCE1D4' -sb '#FCE1D4' -sf '#4C3E41' -fn FiraCodeMedium:bold:pixelsize=14",
             --beautiful.bg_normal, beautiful.fg_normal, beautiful.bg_focus, beautiful.fg_focus))
-            awful.spawn("dmenu_run -i -nb '#4C3E41' -nf '#FCE1D4' -sb '#FCE1D4' -sf '#4C3E41' -fn FiraCodeMedium:bold:pixelsize=14")
+            --awful.spawn("dmenu_run -i -nb '#4C3E41' -nf '#FCE1D4' -sb '#FCE1D4' -sf '#4C3E41' -fn FiraCodeMedium:bold:pixelsize=14")
+            awful.spawn("dmenu_run -p $ -i -nb '"..beautiful.bg_focus.."' -nf '"..beautiful.fg_focus.."' -sb '"..beautiful.fg_focus.."' -sf '"..beautiful.bg_focus.."' -fn FiraCodeMedium:bold:pixelsize=14")
         end,
         {description = "show dmenu", group = "hotkeys"}
     ),
@@ -676,18 +677,19 @@ awful.rules.rules = {
                 "Unetbootin.elf",
                 "Wpa_gui",
                 "xtightvncviewer",
-                "Xfce4-terminal"
+                "Xfce4-terminal",
             },
 
             name = {
-              "Event Tester",  -- xev.
-              "ownCloud"    -- OwnCloud client 
+                "Event Tester",  -- xev.
+                "ownCloud",    -- OwnCloud client 
+                "Taschenrechner"
             },
             role = {
-              "AlarmWindow",  -- Thunderbird's calendar.
-              "pop-up",       -- e.g. Google Chrome's (detached) Developer Tools.
-              "Preferences",
-              "setup",
+                "AlarmWindow",  -- Thunderbird's calendar.
+                "pop-up",       -- e.g. Google Chrome's (detached) Developer Tools.
+                "Preferences",
+                "setup",
             }
         },
         properties = { floating = true },

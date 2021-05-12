@@ -1,0 +1,8 @@
+[ActivityManager]
+_k_friendly_name=Aktivitätenverwaltung
+switch-to-activity-8c84d16a-1114-4c5a-9e71-fac6632b9716=none,none,Zu Aktivität „Standard“ wechseln
+
+[krunner.desktop]
+RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Befehl mit dem Inhalt der Zwischenablage ausführen
+_k_friendly_name=KRunner
+_launch=Alt+Space\tAlt+F2\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner

@@ -1,0 +1,67 @@
+#! /bin/sh
+
+# Start sxhkd
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+# Display setup and background images
+~/Bilder/feh.sh
+~/.local/bin/xrandr-setup
+
+xsetroot -cursor_name left_ptr &
+numlockx on
+
+# Compositor
+killall -q picom
+picom --config $HOME/.config/picom/picom-dt.conf &
+
+# Polybar
+sh ~/.config/polybar/launch.sh &
+
+bspc monitor DP-0 -d 1 2 3 4 5
+bspc monitor HDMI-1 -d 1 2 3 4 5
+
+bspc config normal_border_color   \#866972
+bspc config focused_border_color  \#e64f40
+
+bspc config border_width                  4
+bspc config window_gap                    20
+bspc config top_padding                   35
+bspc config bottom_padding                0
+bspc config left_padding                  0
+bspc config right_padding                 0
+bspc config single_monocle                false
+bspc config click_to_focus                any
+bspc config split_ratio                   0.50
+bspc config borderless_monocle            true
+bspc config gapless_monocle               true
+bspc config focus_by_distance             true
+bspc config focus_follows_pointer         true
+bspc config history_aware_focus           true
+bspc config remove_disabled_monitors      true
+bspc config merge_overlapping_monitors    true
+bspc config pointer_modifier              mod1
+bspc config pointer_action1               move
+bspc config pointer_action2               resize_side
+bspc config pointer_action3               resize_corner
+
+#bspc rule -a Gimp desktop='^8' state=floating follow=on
+#bspc rule -a Chromium desktop='^2'
+#bspc rule -a mplayer2 state=floating
+#bspc rule -a Kupfer.py focus=on
+#bspc rule -a Screenkey manage=off
+bspc rule -a owncloud desktop='^5'
+
+bspc rule -a Gnome-calculator state=floating center=true
+
+# Jetbrains CLion splash screen
+bspc rule -a 'jetbrains-clion:*:win0' state=floating
+
+# Fix for Java based applications
+wmname LG3D
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+owncloud &
+
+# Scratchpad
+#bspc rule -a scratchpad sticky=on state=floating hidden=on
+#[ "$(ps -x | grep -c 'scratchpad')" -eq "1" ] && st -c scratchpad -e ~/.local/bin/scratch

@@ -1,4 +1,7 @@
 <application>
+  <component name="CppNewDialogSettings">
+    <option name="addNewFilesToProject" value="false" />
+  </component>
   <component name="NodeJsLocalInterpreters">
     <local-interpreter path="/bin/node" />
     <local-interpreter path="/usr/bin/node" />
@@ -11,30 +14,81 @@
             <ProjectPluginTrackerState />
           </value>
         </entry>
+        <entry key="1qCCIUcysYNo7XHWarXypBGPjrT">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1qCGiYW5HadjEp1u0TRjUG5sZ6f">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1rhSrpJKWINekLZkYvn28UtOV9R">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
+        <entry key="1rhSv4e0WdVVIO9a0c9sAaK5ydZ">
+          <value>
+            <ProjectPluginTrackerState />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
   <component name="PropertiesComponent">
+    <property name="AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="0" />
+    <property name="AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
+    <property name="AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_STATUS_BAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="1" />
+    <property name="BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR" value="true" />
+    <property name="CMakeConfigurable.configurations" value="0.094972074" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="ExpandRunDashboardTypesPanel" value="false" />
     <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="InstalledPluginsSearchHistory" value="single&#10;sing&#10;theme&#10;the&#10;/organization:Subtheme" />
+    <property name="MarketplacePluginsSearchHistory" value="single file executi&#10;single file executiojn&#10;single file&#10;theme" />
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
     <property name="SettingsSearchHistory" value="tab" />
     <property name="UITheme.relaunch" value="true" />
-    <property name="appcds.runOnSecondStart" value="CL-203.7148.70-2b3d9bdba79801603f9bac2c5fb12d48904f09ca5304d2d7bb927cb22ace0550" />
+    <property name="appcds.runOnSecondStart" value="CL-203.7717.62-70e7a286d732781789b8f08256847a29de4df599a8023bf41b31b22c90f0a419" />
     <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="clion.initialConfigPerformed" value="true" />
     <property name="evlsprt3.203" value="17" />
     <property name="experimentalFeature.editor.reader.mode" value="false" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++" />
-    <property name="file.gist.reindex.count" value="39" />
-    <property name="ide.updates.previous.build.number" value="CL-203.7148.70" />
-    <property name="ideavim.statistics.timestamp" value="1615975074027" />
-    <property name="lastSeenTip" value="neue-CodeCompletionNoShift.html" />
-    <property name="lastTimeTipsWereShown" value="1615975077472" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ownCloud/Masterarbeit/Code/visual-hull-v2-c++" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/code/learning-cuda/mult.cu&#10;/bin/g++&#10;/bin/gcc&#10;/home/atopi/code/learning-cuda/add.cu&#10;/home/atopi/ownCloud/Masterarbeit/Code/visual-hull-new-algorithm&#10;/home/atopi/ownCloud/Masterarbeit/Code/visual-hull-new-algorithm/data/simple-unity-scene/calibration-kalibr.yaml&#10;/home/atopi/ownCloud/Masterarbeit/Code/visual-hull-v2-c++&#10;/home/atopi/ownCloud/Masterarbeit/Code/visual-hull-new-algorithm/c++" />
+    <property name="file.gist.reindex.count" value="183" />
+    <property name="ide.updates.previous.build.number" value="CL-203.7717.62" />
+    <property name="ideavim.statistics.timestamp" value="1618555538637" />
+    <property name="lastSeenTip" value="neue-DirDiff.html" />
+    <property name="lastTimeTipsWereShown" value="1618468939427" />
+    <property name="last_opened_file_path" value="/bin/g++" />
     <property name="mt.showInstallAtom" value="true" />
     <property name="mt.showStatisticsAgreement" value="true" />
-    <property name="seenTips" value="neue-InlineVariable.html,neue-Switcher.html,neue-CodeCompletionNoShift.html" />
+    <property name="seenTips" value="neue-SearchForGit.html,neue-Switcher.html,neue-CodeCompletionNoShift.html,neue-DragToOpen.html,neue-ScopesInTODO.html,neue-InlineVariable.html,neue-DBColors.html,neue-DeleteLine.html,neue-QuickSwitchScheme.html,neue-DirDiff.html" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
     <property name="ts.lib.d.ts.version" value="4.1.3" />
   </component>

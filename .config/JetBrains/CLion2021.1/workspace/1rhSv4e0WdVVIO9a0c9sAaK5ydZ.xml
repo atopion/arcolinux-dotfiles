@@ -1,0 +1,469 @@
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataLoader.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1533">
+              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+              <folding>
+                <element signature="e#54#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CameraCalibration.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1428">
+              <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Configuration.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VisualHull.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6489">
+              <caret line="309" column="37" selection-start-line="309" selection-start-column="37" selection-end-line="309" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CudaKernels.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1911">
+              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+              <folding>
+                <element signature="e#54#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/time-trial.cu">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cu">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="16" column="111" selection-start-line="16" selection-start-column="111" selection-end-line="16" selection-end-column="111" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scratch.cu">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#528#540#0" expanded="true" />
+                <element signature="e#1522#1760#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>voxel_grid</find>
+      <find>%d</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>%f</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Utils.h" />
+      <option value="$PROJECT_DIR$/VisualHull.cuh" />
+      <option value="$PROJECT_DIR$/CameraCalibration.h" />
+      <option value="$PROJECT_DIR$/cuda_kernels.cuh" />
+      <option value="$PROJECT_DIR$/Configuration.h" />
+      <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      <option value="$PROJECT_DIR$/DataLoader.h" />
+      <option value="$PROJECT_DIR$/scratch.cu" />
+      <option value="$PROJECT_DIR$/time-trial.cu" />
+      <option value="$PROJECT_DIR$/Types.h" />
+      <option value="$PROJECT_DIR$/VisualHull.h" />
+      <option value="$PROJECT_DIR$/CudaKernels.h" />
+      <option value="$PROJECT_DIR$/main.cu" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cuda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cuda" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="140891000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16106291" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.33049148" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.33049148" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.24322969" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Profiler" order="5" weight="0.32912844" />
+      <window_info anchor="bottom" id="Python Packages" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32948846" />
+      <window_info anchor="bottom" id="Problems View" order="8" weight="0.33049148" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.36960882" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="10" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="File Transfer" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="clangd" order="14" />
+      <window_info anchor="bottom" id="CMake" order="15" weight="0.32948846" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Flow" order="17" />
+      <window_info anchor="bottom" id="TypeScript" order="18" />
+      <window_info anchor="bottom" id="Services" order="19" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="make" order="1" show_stripe_button="false" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16159189" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.33049148" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.33049148" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.24322969" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Profiler" order="5" weight="0.32912844" />
+      <window_info anchor="bottom" id="Python Packages" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32948846" />
+      <window_info anchor="bottom" id="Problems View" order="8" weight="0.33049148" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.36960882" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="10" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="File Transfer" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="clangd" order="14" />
+      <window_info anchor="bottom" id="CMake" order="15" weight="0.32948846" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Flow" order="17" />
+      <window_info anchor="bottom" id="TypeScript" order="18" />
+      <window_info anchor="bottom" id="Services" order="19" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="make" order="1" show_stripe_button="false" side_tool="true" />
+    </layout-to-restore>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+      <value>Messages</value>
+      <value>Debug</value>
+      <value>Problems View</value>
+      <value>Find</value>
+      <value>Event Log</value>
+      <value>CMake</value>
+    </recentWindows>
+  </component>
+  <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
+  <component name="WindowStateProjectService">
+    <state x="420" y="226" width="1071" height="654" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619439249346">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="420" y="226" width="1071" height="654" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1619439249346" />
+    <state x="650" y="238" key="FileChooserDialogImpl" timestamp="1620808011324">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="666" y="326" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1620120269733" />
+    <state x="666" y="326" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1620113034515" />
+    <state x="650" y="238" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1620808011324" />
+    <state width="876" height="214" key="GridCell.Tab.0.bottom" timestamp="1620808012352">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1280.720@0.0.1920.1080" timestamp="1620226492005" />
+    <state width="876" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1620394312232" />
+    <state width="1826" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1620385561227" />
+    <state width="876" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1620808012352" />
+    <state width="876" height="214" key="GridCell.Tab.0.center" timestamp="1620808012351">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="300" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1280.720@0.0.1920.1080" timestamp="1620226492004" />
+    <state width="876" height="214" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1620394312231" />
+    <state width="1826" height="214" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1620385561226" />
+    <state width="876" height="214" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1620808012351" />
+    <state width="876" height="214" key="GridCell.Tab.0.left" timestamp="1620808012350">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="300" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1280.720@0.0.1920.1080" timestamp="1620226492004" />
+    <state width="876" height="214" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1620394312231" />
+    <state width="1826" height="214" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1620385561226" />
+    <state width="876" height="214" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1620808012350" />
+    <state width="876" height="214" key="GridCell.Tab.0.right" timestamp="1620808012351">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="300" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1280.720@0.0.1920.1080" timestamp="1620226492005" />
+    <state width="876" height="214" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1620394312231" />
+    <state width="1826" height="214" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1620385561227" />
+    <state width="876" height="214" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1620808012351" />
+    <state width="1826" height="340" key="GridCell.Tab.1.bottom" timestamp="1620669177682">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="369" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1619549004567" />
+    <state width="1826" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1620669177682" />
+    <state width="1826" height="340" key="GridCell.Tab.1.center" timestamp="1620669177681">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="369" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1619549004563" />
+    <state width="1826" height="340" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1620669177681" />
+    <state width="1826" height="340" key="GridCell.Tab.1.left" timestamp="1620669177681">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="369" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1619549004561" />
+    <state width="1826" height="340" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1620669177681" />
+    <state width="1826" height="340" key="GridCell.Tab.1.right" timestamp="1620669177682">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1826" height="369" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1619549004565" />
+    <state width="1826" height="340" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1620669177682" />
+    <state x="450" y="203" key="SettingsEditor" timestamp="1619538306229">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="450" y="203" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1619538306229" />
+    <state x="450" y="203" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1619441901312" />
+    <state x="620" y="261" width="672" height="686" key="run.anything.popup" timestamp="1620652295158">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="620" y="261" width="672" height="686" key="run.anything.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1620652295158" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/eigen/ci/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="147">
+            <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/code/learning-cuda/add.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="75" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#41#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/code/learning-cuda/mult.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv4/opencv2/core/eigen.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="244" column="5" selection-start-line="244" selection-start-column="5" selection-end-line="244" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output2.yml" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cuda_kernels.cuh" />
+    <entry file="file://$PROJECT_DIR$/time-trial-result.csv">
+      <provider editor-type-id="csv-data-editor">
+        <state>
+          <format>
+            <csv-format name="CSV" id="Comma-separated (CSV)_id">
+              <data>
+                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+                  <quotation>
+                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+                  </quotation>
+                </record-format>
+              </data>
+            </csv-format>
+          </format>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Types.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataLoader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1533">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="e#54#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CameraCalibration.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VisualHull.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6489">
+          <caret line="309" column="37" selection-start-line="309" selection-start-column="37" selection-end-line="309" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CudaKernels.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1911">
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+          <folding>
+            <element signature="e#54#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scratch.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#528#540#0" expanded="true" />
+            <element signature="e#1522#1760#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-trial.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72513" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="16" column="111" selection-start-line="16" selection-start-column="111" selection-end-line="16" selection-end-column="111" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

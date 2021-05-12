@@ -1,0 +1,26 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.fontFamily": "'Cascadia Code PL', Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "normal",
+    "editor.fontLigatures": true,
+    "editor.letterSpacing": 0.3,
+    "editor.fontSize": 15,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "pandoc.pdfOptString": "-f gfm",
+    "python.autoComplete.addBrackets": true,
+    "python.showStartPage": false,
+    "jupyter.askForKernelRestart": false,
+    "editor.accessibilitySupport": "off",
+
+    "python.linting.pylintArgs": [
+        "--generate-members"
+    ],
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
+}

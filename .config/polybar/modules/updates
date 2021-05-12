@@ -1,0 +1,10 @@
+
+[module/updates]
+type = custom/script
+exec = xbps-updates
+format = <label>
+interval = 4600 
+label =  %output%  
+label-padding = 2
+label-foreground =  #81A1C1
+

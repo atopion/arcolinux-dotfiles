@@ -1,0 +1,18 @@
+[2021-05-12 13:08:52.407] [settingssync] [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+[2021-05-12 13:08:52.407] [settingssync] [info] Auto Sync is enabled.
+[2021-05-12 13:08:52.407] [settingssync] [info] Auto Sync: Suspended until auth token is available.
+[2021-05-12 13:08:53.473] [settingssync] [info] Auto Sync: Started
+[2021-05-12 13:08:53.473] [settingssync] [info] Auto Sync: Triggered by Interval
+[2021-05-12 13:08:53.722] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-05-12 13:08:53.741] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-05-12 13:08:53.748] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-05-12 13:08:53.777] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-05-12 13:08:53.857] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-05-12 13:08:53.858] [settingssync] [info] Sync done. Took 156ms
+[2021-05-12 13:08:54.943] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-05-12 13:08:54.989] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-05-12 13:08:54.990] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-05-12 13:08:54.992] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-05-12 13:08:55.005] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-05-12 13:08:55.050] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-05-12 13:08:55.050] [settingssync] [info] Sync done. Took 66ms
